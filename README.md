@@ -2,6 +2,8 @@
 #### Ayush Adhikari
 <hr>
 
+This project was an introduction to using Apache Spark to analyze a large file (~800 MB), namely the Movie Lens dataset containing movies, genres, ratings, etc. The files were stored using HDFS and cluster size consisted of 10 machines. There is 1 Java file with 7 Spark jobs which are focused on answering the 7 questions below. Each question details the outputs and the explanation of the jobs.
+
 ### Q1. How many movies were released for every year within the dataset?
 <div style="display:flex">
      <img src="static/Q1.png">
